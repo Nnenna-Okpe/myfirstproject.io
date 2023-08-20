@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping form</title>
+    <link rel="stylesheet" href="/khan.css/project.css" />
+  </head>
+  <body>
+    <h1 id="title">NenzPlaza Shopping Form</h1>
+    <p id="description">Thank you for shopping with us</p>
+    <form method="post" action="okpennenna8@gmail.com" id="survey-form">
+      <fieldset>
+        <label for="name-label"
+          >Name
+          <input
+            type="text"
+            id="name-label"
+            required
+            placeholder="first, middle, surname"
+        /></label>
+        <label for="email-label"
+          >Email
+          <input
+            id="email-label"
+            type="email"
+            required
+            placeholder="ok******@gmail.com"
+        /></label>
+        <label for="number-label"
+          >Input your Age
+          <input
+            id="number-label"
+            min="10"
+            max="120"
+            type="number"
+            placeholder="18"
+        /></label>
+        What commodities do you think are popular this season
+        <select id="dropdown">
+          <option value="">Select one</option>
+          <option value="1">electronics</option>
+          <option value="2">skin-care</option>
+          <option value="3">make-up</option>
+          <option value="4">academics</option>
+          <option value="5">clothing</option>
+          <option value="6">others</option>
+        </select>
+        Are you satisfied with our services
+        <label for="Yes"
+          ><input type="radio" id="Yes" name="yes-no" class="inline" required />
+          Yes</label
+        >
+        <label for="No"
+          ><input type="radio" id="No" name="yes-no" class="inline" required />
+          No</label
+        >
+        <label for="Not-fully"
+          ><input
+            type="radio"
+            id="Not-fully"
+            name="yes-no"
+            class="inline"
+            required
+          />
+          Not fully</label
+        >
+        <br />
+        Would you recommend NenzPlaza to a friend
+        <label for="Definitely"
+          ><input
+            type="radio"
+            id="Definitely"
+            name="recommend"
+            class="inline"
+          />
+          Definitely</label
+        >
+        <label for="Maybe"
+          ><input type="radio" id="Maybe" name="recommend" class="inline" />
+          Maybe</label
+        >
+        <label for="Not-sure"
+          ><input type="radio" id="Not-sure" name="recommend" class="inline" />
+          Not sure</label
+        >
+        <br />
+        Where did you hear about us
+        <select id="dropdown">
+          <option value="">Select one</option>
+          <option value="1">Friend(s)</option>
+          <option value="2">social media</option>
+          <option value="3">Internet ads</option>
+          <option value="4">customer review sites</option>
+          <option value="5">referral</option>
+          <option value="6">others</option>
+        </select>
+        <br />
+        <br />
+        What would you like to see improved(check all that apply)
+        <label for="customercare"
+          ><input type="checkbox" class="inline" id="customercare" value"1">
+          Customer care</label
+        >
+        <label for="webpage"
+          ><input type="checkbox" class="inline" id="webpage" value"2"> Web
+          page</label
+        >
+        <label for="Availabilityofproducts"
+          ><input type="checkbox" class="inline" id="Availabilityofproducts"
+          value"3"> Availability of products</label
+        >
+        <label for="Advertisement"
+          ><input type="checkbox" class="inline" id="Advertisement" value="4" />
+          Advertisement</label
+        >
+        <label for="Deliverytime"
+          ><input type="checkbox" class="inline" id="Deliverytime" value="5" />
+          Delivery time</label
+        >
+        <label for="others"
+          ><input type="checkbox" class="inline" id="others" value="6" />
+          others</label
+        >
+        <div>
+          <label for="suggestions"
+            >Any more suggestions?
+            <textarea
+              id="suggestions"
+              name="suggestions"
+              rows="5"
+              column="50"
+              placeholder="Enter your comment here..."
+              class="suggestions"
+            >
+            </textarea>
+          </label>
+        </div>
+      </fieldset>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
